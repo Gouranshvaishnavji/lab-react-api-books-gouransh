@@ -1,12 +1,13 @@
 .book-card {
-  margin-bottom: 20px;
-  border-bottom: 1px solid #ccc; 
-  padding-bottom: 20px; 
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+  border-bottom: 1px solid #ccc;
 }
 
 .image-container {
-  width: 20%; 
-  margin-bottom: 10px;
+  flex: 0 0 20vw; /* Set width for image container in viewport width */
+  margin-right: 20px;
 }
 
 .book-image {
@@ -16,7 +17,7 @@
 }
 
 .text-container {
-  width: 120%; 
+  flex: 1;
 }
 
 .book-title {
