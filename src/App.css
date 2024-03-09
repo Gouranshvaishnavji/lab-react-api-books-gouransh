@@ -1,0 +1,40 @@
+.book-card {
+  display: flex;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.image-container {
+  flex: 0 0 150px; /* Set width for image container */
+}
+
+.book-image {
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.text-container {
+  flex: 1;
+  padding: 10px;
+}
+
+.book-title {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
+
+.book-authors {
+  margin: 0;
+  font-style: italic;
+  color: #888;
+}
+
+.book-description {
+  margin-top: 0;
+  font-size: 1rem;
+  line-height: 1.5;
+}
